@@ -15,7 +15,6 @@ Vue.component('line-chart', {
   computed: {
     ...mapState(["chartLabels","chartData"])
   },
-  props:["dataset"],
   mounted () {
     this.renderChart({
       labels: this.chartLabels,
